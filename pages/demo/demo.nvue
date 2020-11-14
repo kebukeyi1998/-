@@ -1,0 +1,24 @@
+<template>
+	<gracePage :customHeader="false">
+		<!-- 页面主体 -->
+		<view slot="gBody" class="grace-body">
+			
+		</view>
+	</gracePage>
+</template>
+<script>
+import gracePage from "../../graceUI/weexComponents/gracePage.nvue";
+export default {
+	data(){
+		return {
+			
+		}
+	},
+	components:{
+		gracePage
+	},
+	methods:{}
+}
+</script>
+<style>
+</style>
